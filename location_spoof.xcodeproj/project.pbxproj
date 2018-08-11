@@ -47,6 +47,7 @@
 		86AED40F210FEEB40022D7AB /* location_spoofUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = location_spoofUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86AED413210FEEB40022D7AB /* location_spoofUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = location_spoofUITests.swift; sourceTree = "<group>"; };
 		86AED415210FEEB40022D7AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86AED421211E388B0022D7AB /* test.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = test.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +78,7 @@
 		86AED3E7210FEEAE0022D7AB = {
 			isa = PBXGroup;
 			children = (
+				86AED421211E388B0022D7AB /* test.gpx */,
 				86AED3F2210FEEAE0022D7AB /* location_spoof */,
 				86AED407210FEEB40022D7AB /* location_spoofTests */,
 				86AED412210FEEB40022D7AB /* location_spoofUITests */,
