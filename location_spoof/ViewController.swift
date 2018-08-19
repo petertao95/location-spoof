@@ -41,8 +41,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         if let location = locations.last{
             let center = CLLocationCoordinate2D(latitude: location.coordinate.latitude, longitude: location.coordinate.longitude)
             print(center)
-            
-            map.setRegion(MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.1, longitudeDelta: 0.1)), animated: true)
+//            map.setCenter(center, animated: true)
+            map.setRegion(MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.005, longitudeDelta: 0.005)), animated: true)
             map.showsUserLocation = true
         }
     }
